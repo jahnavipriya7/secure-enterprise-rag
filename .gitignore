@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment files (keep .env.example but not secrets)
+.env
+*.env.local
+
+# Logs
+backend/logs/
+*.log
+
+# HuggingFace model cache
+.cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyJWT / keys (never commit secrets)
+*.pem
+*.key
+*.secret
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
